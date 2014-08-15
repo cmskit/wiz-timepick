@@ -1,0 +1,39 @@
+{
+  "name": "package-name",
+  "type": "library",
+  "version": "0.5.0",
+  "description": "A cms-kit wizard to create a jQuery-UI datetime picker",
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "Christoph Taubmann",
+      "email": "info@cms-kit.com"
+    }
+  ],
+  "homepage": "http://cms-kit.com",
+
+    "require": {
+    "php": ">=5.3.3",
+    "cmskit/lib-jquery-ui": "dev-master"
+  },
+    "extra":{
+        "wizards":{
+            "INTEGER": {
+                "description": "",
+                "embed": "wizard:timepick"
+            },
+            "VARCHAR": {
+                "description": "",
+                "embed": "wizard:timepick"
+            },
+            "DATETIME": {
+                "description": "",
+                "embed": "wizard:timepick"
+            },
+            "TIMESTAMP": {
+                "description": "",
+                "embed": "wizard:timepick"
+            }
+        }
+    }
+}
