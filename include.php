@@ -15,7 +15,7 @@ $('<style>.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }.ui-timepi
 (function( $ )
 {
 	
-	$.fn.timepick = function() {
+	$.fn.timepicker = function() {
 		
 		if (!$.datepicker) {
 			alert('jQuery-UI-Datepicker is missing!!');

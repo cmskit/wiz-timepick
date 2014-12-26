@@ -1,6 +1,6 @@
 # cms-kit Wizard Timepicker
 
-Path: cms-kit/backend/wizards/timepick
+Path: backend/wizards/timepicker
 
 ## Description
 
